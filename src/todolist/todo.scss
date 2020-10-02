@@ -1,0 +1,50 @@
+.newTodo {
+  display: flex;
+  margin: 0 -2rem 4px;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  .todoTask {
+    cursor: pointer;
+  }
+  .completed {
+    color: lightgrey;
+    text-decoration: line-through;
+  }
+  .todoButton button {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0.4rem;
+  }
+  &__editForm {
+    display: flex;
+    flex-wrap: wrap;
+    & input {
+      border: none;
+      background: #f7f1f1;
+      outline: none;
+      padding: 1rem 1.5rem;
+      font-weight: 700;
+      width: 70%;
+      font-size: 0.9rem;
+    }
+    & button {
+      padding: 1rem 1.5rem;
+      border: none;
+      outline: none;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      background: lightslategray;
+      &:hover {
+        background-color: lightsteelblue;
+      }
+    }
+  }
+}

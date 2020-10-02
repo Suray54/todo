@@ -1,0 +1,33 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding: 2rem;
+  margin: 4rem auto;
+  background-color: lightseagreen;
+  color: white;
+  box-shadow: -20px -20px 0px 0px rgba(100, 100, 100, 0.1);
+  h1 {
+    margin: -15px;
+    font-weight: 500;
+    font-size: 2.6rem;
+    letter-spacing: 0.05rem;
+    border-bottom: 1px solid white;
+    span {
+      display: block;
+      font-weight: 500;
+      font-size: 0.8rem;
+      margin-top: 0.2rem;
+      margin-bottom: 10px;
+      margin-left: 3px;
+      text-transform: capitalize;
+    }
+  }
+
+  ul {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    list-style: none;
+  }
+}
